@@ -1,6 +1,4 @@
-provider "azurerm" {
-  version = "~> 1.39"
-}
+provider "azurerm" {}
 
 resource "azurerm_resource_group" "common" {
   name     = "tf-ref-common-rg"
